@@ -9,5 +9,7 @@ public class PersonEntity
     public DateTime CreatedAt { get; set; } = DateTime.Now;
 
     public bool UnFriended { get; set; } = false;
+    public string? NickName { get; set; }
+
 
 }
